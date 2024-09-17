@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            min-height: 500px;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            margin-right: 50px;
+        }
+        select, input{
+            margin-bottom: 30px;
+            margin-top: 10px;
+            width: 250px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <label for="age">age:</label>
+        <input type="number" id="age" name="password" required>
+
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="">Select a country</option>
+            <option value="Egypt">Egypt</option>
+            <option value="France">France</option>
+            <option value="England">England</option>
+            <option value="Russia">Russia</option>
+            <option value="SuadiArabia">Suadi Arabia</option>
+        </select>
+        <input type="submit" value="Log In" onclick="sessionStorage.clear();">
+    </form>
+</div>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 3</title>
+</head>
+<body>
+    <!-- Task 3 -->
+    <div class="our-element">Our Element</div>
+    <p>Paragraph</p>
+    <script>
+        let div=document.querySelector(".our-element");
+        div.nextElementSibling.remove();
+        let one=document.createElement("div");
+        one.className="start";
+        one.title="Start Element";
+        // let attr=document.createAttribute("data-value");
+        one.setAttribute("data-value","Start");
+        one.innerHTML="One";
+
+        let two=document.createElement("div");
+        two.className="end";
+        two.title="End Element";
+        two.setAttribute("data-value","End");
+        two.innerHTML="Two";
+
+        let parent=div.parentElement;
+        parent.appendChild(two);
+        parent.prepend(one);
+    </script>
+</body>
+</html>

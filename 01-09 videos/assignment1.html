@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>week 1 assignments</title>
+    <script>
+      // Code One
+    // it won't work because the code compile line by line and the js code is on the head tag but html in the body tag after the head   
+      document.getElementById("el").style.color = "red";
+    </script>
+    <script>
+      // Code Two
+    //   it will work beacuse adding onload method which make the js code execute on load the page
+      window.onload = function () {
+        document.getElementById("el").style.color = "red";
+      };
+    </script>
+  </head>
+  <body>
+    <h2 id="el">Page Title</h2>
+    <script src="demo.js">
+      // Code Three
+    //   it work  because the code compile line by line and the js code is on the body tag after html in the body tag also
+    document.getElementById("el").style.color = "red";
+    </script>
+  </body>
+</html>
