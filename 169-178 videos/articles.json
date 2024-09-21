@@ -1,0 +1,37 @@
+[
+    {
+    "id": 1,
+    "author": "John Doe",
+    "section": "Technology",
+    "title": "The Rise of AI",
+    "content": "Artificial intelligence is transforming industries across the globe."
+    },
+    {
+    "id": 2,
+    "author": "Jane Smith",
+    "section": "Health",
+    "title": "Benefits of a Balanced Diet",
+    "content": "A balanced diet provides essential nutrients for the body and mind."
+    },
+    {
+    "id": 3,
+    "author": "Ahmed Ali",
+    "section": "Business",
+    "title": "Startup Funding in 2024",
+    "content": "The landscape of startup funding is evolving with new opportunities."
+    },
+    {
+    "id": 4,
+    "author": "Sara Taha",
+    "section": "Science",
+    "title": "Exploring the Universe",
+    "content": "Astronomers are discovering new exoplanets at an unprecedented rate."
+    },
+    {
+    "id": 5,
+    "author": "Michael Brown",
+    "section": "Sports",
+    "title": "The Future of Football",
+    "content": "Football is evolving with new technologies improving the game."
+    }
+]
