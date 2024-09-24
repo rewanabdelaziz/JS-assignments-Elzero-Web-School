@@ -1,12 +1,12 @@
 // ================== assignment 5 =======================
 const start = performance.now();
-// console.log(start);
 for (let i = 1; i <= 99999; i++) {
-    // console.log(i);
+    // to try it uncomment next line
+    // console.log(i);     
 }
 
 const end = performance.now();
-// console.log(end);
+
 const timeTaken = Math.floor(end - start); 
 
 console.log(`Loop Took ${timeTaken} Milliseconds.`);
